@@ -1,0 +1,157 @@
+.pageWrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    padding: 0 40px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.container h2 {
+    color: #21243D;
+}
+
+.intro {
+    margin-bottom: 40px;
+    color: #21243D;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro img {
+    width: 243px;
+    height: 243px;
+    border-radius: 50%;
+    box-shadow: -8px 12px #EDF7FA;
+}
+
+.intro h1 {
+    font-size: 44px;
+}
+
+.intro p {
+    font-size: 16px;
+    width: 497px;
+}
+
+.downloadBtn {
+    background-color: #FF6464;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.downloadBtn:hover {
+    background-color: #FF6F6F;
+}
+
+.postsWrapper {
+    background-color: #EDF7FA;
+    padding: 20px 0;
+}
+
+.postList {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    color: #21243D;
+}
+
+.postItem {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 48%;
+}
+
+.postItem h3{
+    font-size: 26px;
+}
+
+
+.postHeader {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.postDivider { 
+    margin: 15px;
+    width: 1px;
+    height: 20px;
+    background-color: #21243D;
+}
+
+.featuredWrapper {
+    padding: 20px 0;
+}
+
+.featuredList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.featuredItem {
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    position: relative;
+    color: #21243D;
+}
+
+.featuredItem h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.featuredImg {
+    width: 246px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.featuredContent {
+    flex: 1;
+}
+
+.featuredDetails {
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+    color: #8695A4;
+}
+
+.featuredYear {
+    font-weight: bold;
+    background-color: #21243D;
+    color: white;
+    padding: 1px 8px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.featuredTags {
+    color: #8695A4;
+    font-size: 20px;
+}
+
+.featuredItem::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #E0E0E0;
+    margin-top: 20px;
+}
+
